@@ -54,10 +54,10 @@ d <- data(ToothGrowth)
 boxplot(
   len ~ supp,
   data = ToothGrowth,
-  +col = c("orange", "lightgreen"),
-  +xlab = "Length",
-  +ylab = "Supplement",
-  +main = "Difference in length OJ VS VC"
+  col = c("orange", "lightgreen"),
+  xlab = "Length",
+  ylab = "Supplement",
+  main = "Difference in length OJ VS VC"
 )
 
 
@@ -68,12 +68,12 @@ boxplot(
 
 # f
 boxplot(
-  len ~ dose,
+  d$len ~ d$dose,
   data = ToothGrowth,
-  +col = c("orange", "lightgreen"),
-  +xlab = "Length",
-  +ylab = "Supplement",
-  +main = "Difference in relationship between length and dose"
+  col = c("orange", "lightgreen"),
+  xlab = "Length",
+  ylab = "Supplement",
+  main = "Difference in relationship between length and dose"
 )
 
 # g the amount of dose has correlation with the length the higher dose lead to higher length

@@ -2,7 +2,7 @@
 
 ## Basic Functions
 
-sqrt(25) # the squareroot 
+sqrt(25) # squareroot 
 
 exp(3) # e raise to power
 rep(3, 4) # repeat 3, four times

@@ -438,5 +438,5 @@ legend("topright",
        lty=c(1, 2),
        lwd=2,
        bty="o")
-# Add a short comment describing what your plot shows.
+# Add a short comment describing what your plot shows.h
 #The plot demonstrates the negative association between car weight and fuel efficiency (MPG) is influenced by the transmission type.

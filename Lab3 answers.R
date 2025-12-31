@@ -26,7 +26,7 @@ if(x-4==1){
   print(new_object)
 }
 
-### 1.1
+### 1.1h
 # Write a function called probe, that takes two arguments, n and pw.
 # The function should return a character vector of length n, consisting of 'Water' and 'Land', sampled with probability pw. (so probability of sampling 'Water' is w)
 # If the pw argument is not numeric, or if it is not between 0 and 1, the function should return the following message:

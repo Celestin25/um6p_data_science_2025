@@ -198,7 +198,7 @@ my_t <- function(x1,x2){
   return(list(t = t, df = df, p_value=p_value))
   }
 
-# compare this function to the in-built t-test
+# compare this function to the in-built t-tests
 t.test(men_heights, women_heights)
 my_t(men_heights, women_heights)
 

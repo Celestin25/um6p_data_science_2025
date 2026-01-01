@@ -429,7 +429,7 @@ plot(mtcars$wt, mtcars$mpg,
 abline(lm(mpg ~ wt, data=subset(mtcars, am==0)), col="red", lty=2)
 # Line for Manual (am=1)
 abline(lm(mpg ~ wt, data=subset(mtcars, am==1)), col="blue", lty=1)
-# You can combine multiple plot types, add labels, legends, or annotations.
+# You can combine multiple plot types, add labels, legends, or annotations.n
 #Add a legend
 legend("topright",
        legend=c("Manual (Line & Triangle)", "Automatic (Line & Circle)"),

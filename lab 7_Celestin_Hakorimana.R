@@ -336,7 +336,7 @@ polygon(
   col = adjustcolor('slateblue', alpha.f = 0.4)
 )
 
-# compare this to:e
+# compare this to:
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
   geom_smooth(method = lm, se = TRUE, level = 0.96)

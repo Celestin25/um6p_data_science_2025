@@ -78,7 +78,8 @@ plot(1:25,rep(1,25),pch=1:25)
 
 # You can also put in any symbol you like in quote marks:
 plot(mtcars$wt,mtcars$mpg, pch="$")
-plot(mtcars$wt,mtcars$mpg,pch="✌")
+
+
 
 # To change x axis and y axis labels, and add a title you can use
 plot(mtcars$wt,mtcars$mpg, pch=20, xlab='Weight (1000 lbs)', ylab='Fuel efficiency (mpg)', main='Association between car weight and fuel efficiency')

@@ -46,7 +46,7 @@ group_data <- data.frame(
 print("Raw Data Table:")
 print(group_data)
 
-# We must prove that Diverse groups didn't just start with "smarter" students.
+# we must prove that Diverse groups didn't just start with "smarter" students.
 
 # T-Test: Difference in Baseline Creativity (ICI)
 t_test_validity <- t.test(Mean_ICI ~ Condition, data = group_data)

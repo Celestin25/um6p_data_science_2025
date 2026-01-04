@@ -105,7 +105,7 @@ plot_reg <- ggplot(group_data, aes(x = Blau_Index, y = Originality)) +
 
 print(plot_reg)
 
-# Show that Homogeneous groups produced MORE ideas (even if less original)
+# show that Homogeneous groups produced MORE ideas (even if less original)
 
 # T-Test for Fluency
 t_test_fluency <- t.test(Fluency ~ Condition, data = group_data)

@@ -62,8 +62,7 @@ if (t_test_validity$p.value > 0.05) {
 } else {
   print("Groups were not equal at the start.")
 }
-
-# Does Diversity affect Originality?
+# does Diversity affect Originality?
 
 # Run One-Way ANOVA
 anova_orig <- aov(Originality ~ Condition, data = group_data)

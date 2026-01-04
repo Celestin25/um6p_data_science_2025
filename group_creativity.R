@@ -113,7 +113,7 @@ t_test_fluency <- t.test(Fluency ~ Condition, data = group_data)
 print("--- FLUENCY CHECK ---")
 print(t_test_fluency)
 
-# Visualization of Fluency Differences
+# Visualization of Fluency differences
 plot_fluency <- ggboxplot(
   group_data,
   x = "Condition",

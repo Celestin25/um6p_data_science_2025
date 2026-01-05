@@ -46,8 +46,6 @@ print(group_data)
 
 # T-Test: Difference in Baseline Creativity (ICI)
 t_test_validity <- t.test(Mean_ICI ~ Condition, data = group_data)
-
-print("--- ICI ---")
 print(t_test_validity)
 
 # Interpretation Logic
@@ -82,8 +80,6 @@ print(plot_orig)
 
 # Linear Regression Model
 lm_model <- lm(Originality ~ Blau_Index, data = group_data)
-
-print("--- REGRESSION ANALYSIS ---")
 summary(lm_model)
 
 # Regression Visualization
@@ -105,7 +101,7 @@ print(plot_reg)
 # T-Test for Fluency
 t_test_fluency <- t.test(Fluency ~ Condition, data = group_data)
 
-print("--- FLUENCY CHECK ---")
+
 print(t_test_fluency)
 
 # Visualization of Fluency differences

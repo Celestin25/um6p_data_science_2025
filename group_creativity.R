@@ -18,8 +18,6 @@ library(ggpubr)
 # We are creating data that reflects the "Trade-off" theory:
 group_data <- data.frame(
   Group_ID = factor(c("G1", "G2", "G3", "G4", "G5", "G6")),
-
-  # Condition: 2 Homogeneous, 4 Diverse
   Condition = factor(c(
     "Homogeneous",
     "Homogeneous",
@@ -28,8 +26,6 @@ group_data <- data.frame(
     "Diverse",
     "Diverse"
   )),
-
-  # Blau Index (0 = Homogeneous, 0.8 = High Diversity)
   Blau_Index = c(0.00, 0.00, 0.48, 0.56, 0.75, 0.80),
 
   # Baseline Creativity (ICI) - Should be roughly equal to prove fair start

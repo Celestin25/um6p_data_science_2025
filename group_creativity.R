@@ -62,7 +62,7 @@ if (t_test_validity$p.value > 0.05) {
 anova_orig <- aov(Originality ~ Condition, data = group_data)
 summary(anova_orig)
 
-# Boxplot Visualization (The "Money Plot")
+# Boxplot Visualization 
 plot_orig <- ggboxplot(
   group_data,
   x = "Condition",

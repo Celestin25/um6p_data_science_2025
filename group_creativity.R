@@ -76,8 +76,6 @@ plot_orig <- ggboxplot(
 
 print(plot_orig)
 
-# How much does Diversity help? (Using Blau Index as predictor)
-
 # Linear Regression Model
 lm_model <- lm(Originality ~ Blau_Index, data = group_data)
 summary(lm_model)
@@ -116,3 +114,10 @@ plot_fluency <- ggboxplot(
 )
 
 print(plot_fluency)
+# Multiple Linear Regression Model
+# Predict Originality using: Diversity (Blau) AND Speed (Fluency) AND Baseline Talent (Mean_ICI)
+
+multi_model <- lm(Originality ~ Blau_Index + Fluency + Mean_ICI, data = group_data)
+
+# View the results
+summary(multi_model)

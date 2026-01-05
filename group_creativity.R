@@ -15,7 +15,7 @@ if (!require("ggpubr")) {
 library(tidyverse)
 library(ggpubr)
 
-# We are creating data that reflects the "Trade-off" theory:
+# We are creating dataset based on the simulation description
 group_data <- data.frame(
   Group_ID = factor(c("G1", "G2", "G3", "G4", "G5", "G6")),
   Condition = factor(c(

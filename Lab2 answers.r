@@ -50,7 +50,6 @@ colnames(star_wars_matrix) <- c("US revenue", "International revenue")
 
 total_revenue <- rowSums(star_wars_matrix)
 
-
 # We can now add this vector as a new column using the function cbind (column bind)
 
 star_wars_matrix <- cbind(star_wars_matrix, total_revenue)
@@ -62,13 +61,8 @@ colnames(star_wars_matrix)[3] <- 'Total revenue'
 
 # Now lets create vectors for the box office returns of the prequel trilogy
 
-phantom_menace <- c(474.5,552.5)
-attack_of_clones <- c(310.7,338.7)
-revenge_of_sith <- c(380.3, 468.5)
 
-### 1.3
-# Turn these 3 vectors into a matrix, change the row names to match te movies,
-prequel_matrix <- matrix(c(phantom_menace,attack_of_clones,revenge_of_sith), byrow = T, nrow = 3)
+
 # add a column for total revenue using rowSums,
 prequel_matrix <- cbind(prequel_matrix, rowSums(prequel_matrix))
 # add row names. (You can ignore the column names since that has been added already for star_wars_matrix)
@@ -121,7 +115,6 @@ star_wars_matrix[1:3,] * star_wars_matrix[4:6,]
 
 my_list <- list(c("red,green"), 1:5, FALSE, matrix(1:9,3,3))
 my_list
-
 my_list[3]
 
 # You can even have lists inside of lists, recursively
@@ -140,7 +133,7 @@ my_list$boolean
 
 my_list$matrix <- star_wars_matrix
 
-# Finally, you can turn any list into a vector with unlist().
+# Finally, you can turn any list into a vector with unlist().   
 unlist(my_list)
 
 # If the classes of each of the elements are different, it will automatically convert them all 
@@ -151,7 +144,7 @@ unlist(my_list)
 ###########################
 
 # Data frames are also 2-dimensional objects, with rows and columns.
-# However, data frames are not, like matrices, single vectors folded onto themselves.
+# However, data frames are not, like matrices, single vectors folded onto themselves.O
 # Instead, they are special kinds of list, where each element of the list is a vector 
 # of the same length, but possibly of different classes, each of which is a column of the
 # data frame.

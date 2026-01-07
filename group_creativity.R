@@ -114,7 +114,7 @@ plot_fluency <- ggboxplot(
 )
 
 print(plot_fluency)
-# Multiple Linear Regression Model
+# Multiple Linear Regression Model 
 # Predict Originality using: Diversity (Blau) AND Speed (Fluency) AND Baseline Talent (Mean_ICI)
 
 multi_model <- lm(Originality ~ Blau_Index + Fluency + Mean_ICI, data = group_data)

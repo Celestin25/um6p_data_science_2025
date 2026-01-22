@@ -1,6 +1,6 @@
 ################################################################################
 # Research Study: Educational Diversity & Divergent Thinking
-# Author: Celestin Hakorimana
+# Author: Celestin Hakorimana 
 # Date: Jan 4th, 2026
 # Context: FGSES UM6P Data Analysis Simulation
 ################################################################################
@@ -14,7 +14,6 @@ if (!require("ggpubr")) {
 }
 library(tidyverse)
 library(ggpubr)
-
 # We are creating dataset based on the simulation description
 group_data <- data.frame(
   Group_ID = factor(c("G1", "G2", "G3", "G4", "G5", "G6")),

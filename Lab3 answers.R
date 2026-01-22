@@ -88,7 +88,6 @@ fruits <- c('apple','banana', 'pineapple','mango','orange')
 for(i in fruits){ # it doesn't matter that we use the letter i here. It could be anything. It serves as a placeholder that represents the elements of the vector or list that we are iterating over.
   print(paste('My favourite fruit is',i,sep=': '))
 }
-
 useless_function <- function(n){
   for (i in 1:n){
     print(paste0(i,'. This number is: ', c('even','odd')[i%%2 +1]))

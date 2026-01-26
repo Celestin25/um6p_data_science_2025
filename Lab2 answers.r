@@ -171,7 +171,6 @@ iris$Species
 # Let's do some basic data visualization in R:
 # First, a histogram
 hist(iris$Sepal.Length)
-
 # Next, a scatterplot
 plot(iris$Petal.Length,iris$Petal.Width)
 

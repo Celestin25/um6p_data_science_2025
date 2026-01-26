@@ -76,7 +76,7 @@ strsplit(rownames(mtcars),split=' ')
 
 # paste0() is a simplified version of paste() where sep = ""
 paste0('All','of','these','words','are','squished','together')
-
+()
 #####################
 ####  3. Loops   ####
 #####################

@@ -50,7 +50,8 @@
 data()
 
 # To load one into your environment, run for example
-data(mtcars)
+
+
 
 ########################
 ####    Plotting    ####
@@ -89,7 +90,8 @@ plot(mtcars$wt,mtcars$mpg, pch=20, ylim = c(0,40), xlim = c(0,7))
 
 # Instead of a scatterplot, you can change the type of the plot using 'type'
 plot(dnorm(seq(-4,4,0.2)),pch=20)
-plot(dnorm(seq(-4,4,0.2)),type='l')
+
+
 plot(dnorm(seq(-4,4,0.2)),type='h')
 plot(dnorm(seq(-4,4,0.2)),type='b')
 plot(dnorm(seq(-4,4,0.2)),type='s')
